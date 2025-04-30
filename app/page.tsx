@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "0x4D23BD4eABB13Ab289f5F2533f85F96b6A0D5747" // ganti dengan alamat kontrakmu
+const CONTRACT_ADDRESS = "0x1164E0Cc1621E91748aA9199Cfc3f322A970Df4d" // ganti dengan alamat kontrakmu
 const ABI = [
   "function sponsor(address user, uint256 amount) external",
   "function getBalance() external view returns (uint256)",
